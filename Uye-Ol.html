@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uye Ol</title>
+</head>
+<body>
+    <form action="register.php">
+        <h2>Lutfen Formu Eksiksiz Doldurunuz.</h2>
+        <hr>
+        <h3>Hesap Bilgileriniz</h3>
+            <table>
+                <tr>
+                    <td><label for="kullanici">Kullanici Adi :</label></td>
+                    <td><input type="text" id="kullanici" placeholder="Kullanici adi giriniz"></td>
+                </tr>
+                <tr>
+                    <td><label for="eposta">E posta :</label></td>
+                    <td><input type="email" id="eposta" placeholder="E-posta Giriniz"></td>
+                </tr>
+                <tr>
+                    <td><label for="sifre">Parola :</label></td>
+                    <td><input type="password" id="sifre" placeholder="Parola Giriniz"></td>
+                </tr>
+            </table> 
+            
+        <h3>Kisisel Bilgileriniz</h3>
+                <table>
+                    
+                    <tr>
+                        <td><label for="isim">Isim :</label></td>
+                        <td><input type="text" id="isim"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="soyad">Soyadiniz :</label></td>
+                        <td><input type="text" id="soyad"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="cities">Sehir :</label></td>
+                        <td>
+                            <select id="cities">
+                                <option value="41">Kocaeli</option>
+                                <option value="01">Adana</option>
+                                <option value="31">Izmir</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="Cinsiyet">Cinsiyet :</label></td>
+                        <td>
+                            <input type="radio" id="cinsiyet" name="cinsiyetler">
+                            <label for="cinsiyet">Erkek</label>
+                            <input type="radio" id="cinsiyet2" name="cinsiyetler">
+                            <label for="cinsiyet2">Kadin</label>
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td><label for="hobi">Hobiler :</label></td>
+                        <td>
+                            <input type="checkbox" id="sinema">
+                            <label for="sinema">Sinema</label>
+                            
+                            <input type="checkbox" id="gezme">
+                            <label for="gezme">Gezmek</label>
+                            
+                            <input type="checkbox" id="spor">
+                            <label for="spor">Spor</label>
+
+                            <input type="checkbox" id="kitap">
+                            <label for="kitap">Kitap</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <button type="sumbit">Kaydet</button>
+                            <button type="reset">Reset</button>
+                        </td>
+                    </tr>
+                        
+                </table>
+    </form>
+</body>
+</html>
